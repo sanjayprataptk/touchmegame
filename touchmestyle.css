@@ -1,0 +1,60 @@
+body{
+    background-color: bisque;
+    
+
+    
+    
+}
+.wall{
+    border: 7px solid;
+    border-color: rgb(88, 37, 37);
+    height: 700px;
+    width: 1500px;
+    cursor: url("icons/net\ \(1\).png"),auto;
+    
+}
+
+#rat{
+    height: 75px;
+    width: 75px;
+    
+}
+#catchtherat {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.6);
+    
+}
+
+#startgame {
+    width: 555px;
+    height: 375px;
+    background: #ffd6a7;
+    border: 5px solid rgb(82, 58, 34);
+    border-radius: 25px;
+    position: relative;
+    top: 150px; 
+    left: 500px;
+}
+
+
+#startgame h2{
+    color: rgb(82, 58, 34);
+    font-family: sans-serif;
+    margin-top: 150px;
+
+}
+
+#startbutton{
+    height: 75px;
+    width: 75px;
+    
+}
+#startbutton:hover{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
